@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADMobGenYD'
-  s.version          = '0.1.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of ADMobGenYD.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1594717129@qq.com/ADMobGenYD'
+  s.homepage         = 'http://121.41.108.203/ADMobGenKit-Modules/ADMobGenYD'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1594717129@qq.com' => '1594717129@qq.com' }
-  s.source           = { :git => 'https://github.com/1594717129@qq.com/ADMobGenYD.git', :tag => s.version.to_s }
+  s.source           = { :git => 'http://121.41.108.203/ADMobGenKit-Modules/ADMobGenYD.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ADMobGenYD/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ADMobGenYD' => ['ADMobGenYD/Assets/*.png']
-  # }
+  s.frameworks = 'UIKit', 'MediaPlayer' , 'CoreMedia', 'AVFoundation', 'CoreMotion', 'SafariServices', 'EventKit', 'EventKitUI', 'CoreGraphics', 'MessageUI', 'StoreKit', 'Security', 'WebKit', 'CoreTelephony', 'SystemConfiguration', 'QuartzCore', 'CoreLocation', 'AdSupport'
+  
+  s.libraries = 'c++', 'xml2', 'z'
+  
+  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
+  
+  s.vendored_frameworks = 'ADMobGenYD/Classes/ADMobGenYD.framework'
+  
+  s.dependency 'ADMobGenAdapter'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

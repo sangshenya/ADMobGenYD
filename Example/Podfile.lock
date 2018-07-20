@@ -1,15 +1,26 @@
 PODS:
-  - ADMobGenYD (0.1.0)
+  - ADMobGenAdapter (0.4.7):
+    - ADMobGenFoundation
+  - ADMobGenFoundation (0.3.1)
+  - ADMobGenYD (0.1.0):
+    - ADMobGenAdapter
 
 DEPENDENCIES:
   - ADMobGenYD (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ADMobGenAdapter
+    - ADMobGenFoundation
 
 EXTERNAL SOURCES:
   ADMobGenYD:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ADMobGenYD: 3dd41dc0c041813e41f44192a547370114656259
+  ADMobGenAdapter: 225e21f2bc2279412dd7d03dba407ecf56692a4e
+  ADMobGenFoundation: 0ded0c9d090c19b756323093006b59a3031f0641
+  ADMobGenYD: 49805027d68d413014ea6cd5c09a19145d46d8ac
 
 PODFILE CHECKSUM: 0326bdbf9573ad41f12a87891db221757a263bf2
 
