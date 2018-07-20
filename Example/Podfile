@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ADMobGenYD_Example' do
+  pod 'ADMobGenYD', :path => '../'
+
+  target 'ADMobGenYD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
