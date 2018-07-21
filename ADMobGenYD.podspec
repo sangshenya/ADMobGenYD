@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ADMobGenYD'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = 'A short description of ADMobGenYD.'
 
 # This description is used to generate tags and improve search results.
