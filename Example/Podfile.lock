@@ -1,8 +1,8 @@
 PODS:
-  - ADMobGenAdapter (0.4.7):
+  - ADMobGenAdapter (1.1.5):
     - ADMobGenFoundation
-  - ADMobGenFoundation (0.3.1)
-  - ADMobGenYD (0.1.0):
+  - ADMobGenFoundation (0.4.0)
+  - ADMobGenYD (0.5.2):
     - ADMobGenAdapter
 
 DEPENDENCIES:
@@ -18,9 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ADMobGenAdapter: 225e21f2bc2279412dd7d03dba407ecf56692a4e
-  ADMobGenFoundation: 0ded0c9d090c19b756323093006b59a3031f0641
-  ADMobGenYD: 49805027d68d413014ea6cd5c09a19145d46d8ac
+  ADMobGenAdapter: d536373772cc44fd5dc926899f157b54c7820dda
+  ADMobGenFoundation: 1778d376ad8513a7236a57d025985ba815f03d16
+  ADMobGenYD: 79eb684a2d44ebf9bbd94a3eed693625718a2069
 
 PODFILE CHECKSUM: 0326bdbf9573ad41f12a87891db221757a263bf2
 
